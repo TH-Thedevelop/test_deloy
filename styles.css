@@ -12,13 +12,26 @@ body {
   padding: 2rem;
   width: 100%;
   min-height: 100vh;
-  background-image: linear-gradient(to right bottom, #cffafe, #22d3ee);
+  background-image: linear-gradient(to right bottom, #CDFFD8, #94B9FF);
   display: flex;
   flex-direction: column;
 }
 
-.header-img {
+.header-img1{
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.2));
+}
+
+.header_remove{
+  display:none;
+}
+.header_display{
   display: flex;
+}
+
+.header-img2 {
   width: 100%;
   max-width: 600px;
   margin-inline: auto;

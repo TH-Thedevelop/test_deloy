@@ -1,4 +1,6 @@
 const container = document.getElementById("container");
+const tilte = document.querySelector(".header-img1");
+const second_title = document.querySelector(".header-img2");
 const imageOne = document.querySelector(".image-1");
 const imageTwo = document.querySelector(".image-2");
 const btnYes = document.querySelector(".btn-yes");
@@ -37,4 +39,8 @@ btnYes.addEventListener("click", (e) => {
   btnNo.classList.add("hide");
   imageOne.classList.add("hide");
   imageTwo.classList.remove("hide");
+  tilte.classList.remove("header_display");
+  tilte.classList.add("header_remove");
+  second_title.classList.add("header_display");
 });
+/**/
